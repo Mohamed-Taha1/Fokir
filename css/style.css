@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,300&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.NAVBAR {
+  background-color: #333;
+}
+
+.navbar-brand {
+  color: #ff305b !important;
+  font-size: 1.5rem;
+}
+
+.container-fluid a:hover {
+  color: #ff305b !important;
+}
+
+.sec1 {
+  background-image: url(../img/slider/slider-01.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sec1-content h3 {
+  color: #ff305b !important;
+}
+
+.sect2-image img {
+  -webkit-transform: translate(20px, 20px);
+          transform: translate(20px, 20px);
+}
+
+.sect2-content p {
+  font-size: 1.2rem;
+}
+
+.sect2-content .btn {
+  background-color: #ff305b;
+  border-radius: 10px;
+}
+
+.sec3 {
+  background-color: #f1f1f1;
+  margin-top: 60px !important;
+}
+
+.sect3-content {
+  -webkit-transition: 0.5s background-color;
+  transition: 0.5s background-color;
+}
+
+.sect3-content:hover {
+  background-color: #fff;
+}
+
+.sect3-content p {
+  font-size: 1.1rem;
+}
+
+.sect4 .sec4-layer {
+  -webkit-transition: 1s  background-color;
+  transition: 1s  background-color;
+}
+
+.sect4:hover .sec4-layer {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+.sec6 {
+  background-color: #f1f1f1;
+}
+/*# sourceMappingURL=style.css.map */

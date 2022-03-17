@@ -1,0 +1,83 @@
+$maincolor: rgb(255, 48, 91);
+$navColor: #333;
+$sectionColor: #f1f1f1;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,300&display=swap');
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.NAVBAR {
+  background-color: $navColor;
+}
+.navbar-brand {
+  color: $maincolor !important;
+  font-size: 1.5rem;
+}
+.container-fluid {
+  a {
+    &:hover {
+      color: $maincolor !important;
+    }
+  }
+}
+.sec1 {
+  background-image: url(../img/slider/slider-01.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.sec1-content {
+  h3 {
+    color: $maincolor !important;
+  }
+}
+.sect2-image {
+  img {
+    transform: translate(20px, 20px);
+  }
+}
+.sect2-content {
+  p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: $maincolor;
+    border-radius: 10px;
+  }
+}
+.sec3 {
+  background-color: $sectionColor;
+  margin-top: 60px !important;
+}
+.sect3-content {
+  transition: 0.5s background-color;
+
+  &:hover {
+    background-color: #fff;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+.sect4 {
+
+     
+    .sec4-layer
+    {
+        transition: 1s  background-color;
+    }
+  &:hover {
+      
+    .sec4-layer {
+        
+      background-color: rgba(128, 128, 128, 0.6);
+    }
+  }
+}
+.sec6
+{
+    background-color: $sectionColor;
+}
